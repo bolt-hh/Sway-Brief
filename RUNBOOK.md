@@ -6,7 +6,7 @@ What it is: the Sway Korea creator brief as a bilingual (EN/KO) single-page site
 - `index.html`: English entry (opens in EN, unfurls in EN)
 - `ko/index.html`: Korean entry (opens in KO, unfurls in KO)
 - `vercel.json`: clean URLs, no trailing slash
-- `og.png` / `og-ko.png`: Telegram/X link previews (EN and KO), referenced by absolute URL on the two subdomains
+- `og.png` / `og-ko.png`: Telegram/X link previews (EN and KO), referenced by absolute URL on sway-brief.vercel.app (the production URL), so the preview works on the Vercel link and on both subdomains
 - Self-contained: logo, favicon and all 20 guide screenshots are embedded. Only fonts load from Google Fonts and Fontshare.
 
 ## Deploy (Vercel, team holo-hive)
